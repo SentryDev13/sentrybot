@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="sentrybot.png" alt="SentryBot" width="130">
+  <img src="sentrybot.ico" alt="SentryBot" width="130">
 </p>
 
 <h1 align="center">SentryBot</h1>
