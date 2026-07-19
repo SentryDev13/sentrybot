@@ -79,16 +79,8 @@ imperfect:
 2. **💬 [Join our Discord](https://discord.gg/cd9zPVgJ56)** and grab a **free 2-day trial key**
 3. Run **SentryBot.exe**, paste the key, press **Start** — that's it
 
-## Pricing
-
-| Plan | Price | |
-|------|-------|--|
-| **Recon** | Free | 2-day trial, full access, one per PC |
-| **Patrol** | €14.99 / month | All duties, all updates |
-| **Campaign** | €39 / 3 months | Best value — all duties, priority support |
 
 Keys are handed out on our **[Discord](https://discord.gg/cd9zPVgJ56)**.
-Payment in crypto (USDT / USDC).
 
 ## Requirements
 
