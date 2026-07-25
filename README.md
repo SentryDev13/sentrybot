@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/version-1.4-F2811D?style=flat-square" alt="Version 1.4">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-2b2f20?style=flat-square" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/duties-14%20automated-2b2f20?style=flat-square" alt="14 automated duties">
   <img src="https://img.shields.io/badge/trial-2%20days%20free-F2811D?style=flat-square" alt="2-day free trial">
@@ -36,6 +37,16 @@ mouse, exactly like a player. It finds every button by **image
 recognition** — no fixed click positions, no memory reading, no game
 file modification, no APK mods. And it is built around one hard rule:
 **it never spends a single gem.**
+
+## What's new in v1.4
+
+- 🖥️ **Any window size, any resolution** — fullscreen or windowed, big or
+  small. The bot measures how the game is drawn on your screen and adapts
+  by itself. Tested from 998x604 up to 4K.
+- 🔍 **Windows display scaling supported** — 125%, 150%, 200%: no setup needed.
+- 🤝 **Alliance help after healing** — allies can speed up your hospital again.
+- 💰 **Tech donation until the bar turns grey** — it no longer stops early.
+- 🛡️ **Tougher** — a failing duty can't take the whole bot down anymore.
 
 ## Features — 14 automated duties
 
@@ -64,7 +75,7 @@ imperfect:
 - **Curved, decelerating mouse movement** — never clicks the same pixel twice
 - **Human schedule** — sleeps 7–8 h a night at a random time, takes lunch breaks
 - **Human brake** — if the game shows a verification check, it stops and alerts you
-- **Icon-based vision** — buttons are recognized wherever they appear, at any camera zoom
+- **Icon-based vision** — buttons are recognized wherever they appear, at any camera zoom, window size or screen resolution
 
 ## What it will never do
 
@@ -79,14 +90,24 @@ imperfect:
 2. **💬 [Join our Discord](https://discord.gg/cd9zPVgJ56)** and grab a **free 2-day trial key**
 3. Run **SentryBot.exe**, paste the key, press **Start** — that's it
 
+## Pricing
+
+| Plan | Price | |
+|------|-------|--|
+| **Recon** | Free | 2-day trial, full access, one per PC |
+| **Patrol** | €14.99 / month | All duties, all updates |
+| **Campaign** | €39 / 3 months | Best value — all duties, priority support |
 
 Keys are handed out on our **[Discord](https://discord.gg/cd9zPVgJ56)**.
+Payment in crypto (USDT / USDC).
 
 ## Requirements
 
 - Windows 10 or 11
 - Last War: Survival running on the same PC
 - Game interface set to **Italian** *(more languages coming soon)*
+- **Any window size or resolution** — windowed or fullscreen, at any
+  Windows display scaling *(since v1.4)*
 - Any base skin — the bot doesn't care how your base looks
 - The PC should be free while it runs — it uses the real mouse
 
@@ -108,6 +129,11 @@ founding rule.
 **Does it work while I'm AFK or asleep?** That's the whole point: it
 farms 24/7 with a human-like schedule, and stops itself if the game asks
 for a verification.
+
+**Does it work at my resolution, or in fullscreen?** Yes. Since v1.4 the
+bot measures how large the game is drawn on your screen and adapts to it,
+so any window size, any resolution and any Windows display scaling work —
+and you can resize the game while the bot is running.
 
 **One key, how many PCs?** One key = one PC. It locks to the first
 computer that activates it.
