@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.4-F2811D?style=flat-square" alt="Version 1.4">
+  <img src="https://img.shields.io/badge/version-1.4.10-F2811D?style=flat-square" alt="Version 1.4.10">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-2b2f20?style=flat-square" alt="Windows 10/11">
-  <img src="https://img.shields.io/badge/duties-14%20automated-2b2f20?style=flat-square" alt="14 automated duties">
+  <img src="https://img.shields.io/badge/duties-17%20automated-2b2f20?style=flat-square" alt="17 automated duties">
   <img src="https://img.shields.io/badge/trial-2%20days%20free-F2811D?style=flat-square" alt="2-day free trial">
   <a href="https://discord.gg/cd9zPVgJ56"><img src="https://img.shields.io/badge/Discord-join%20%26%20get%20a%20key-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Join the SentryBot Discord and get a free key"></a>
 </p>
@@ -38,7 +38,22 @@ recognition** — no fixed click positions, no memory reading, no game
 file modification, no APK mods. And it is built around one hard rule:
 **it never spends a single gem.**
 
-## What's new in v1.4
+## What's new in v1.4.10
+
+- 🏗️ **Building upgrades, start to finish** — the moment a builder frees
+  up, the bot starts the upgrade the game recommends, tops it up from
+  your own resource crates if you're short, and opens the parcels your
+  finished buildings leave behind.
+- ♻️ **A second pass at the end of every long round** — alliance help,
+  rallies, survivors, training, healing and gifts get another look, so
+  nothing waits for the next round.
+- 📐 **Sharper screen measurement** — at some window sizes the bot assumed
+  the game was drawn at its reference size and skipped measuring it,
+  so panels opened but the buttons inside weren't found. Fixed.
+- ⚙️ **New duties arrive switched on** after an update; the ones you
+  switched off yourself stay off.
+
+## Earlier, in v1.4
 
 - 🖥️ **Any window size, any resolution** — fullscreen or windowed, big or
   small. The bot measures how the game is drawn on your screen and adapts
@@ -48,13 +63,14 @@ file modification, no APK mods. And it is built around one hard rule:
 - 💰 **Tech donation until the bar turns grey** — it no longer stops early.
 - 🛡️ **Tougher** — a failing duty can't take the whole bot down anymore.
 
-## Features — 14 automated duties
+## Features — 17 automated duties
 
 | Duty | What it does |
 |------|--------------|
 | 🤝 **Alliance Help** | Answers every help request instantly — top of the board, every day |
 | 🚩 **Rally Joiner** | Joins alliance rallies before the countdown ends, even at 3 AM |
 | 💰 **Resource Collection** | Harvests all 7 bubble types, whatever your base layout |
+| 🏗️ **Building Upgrades** | Starts the recommended upgrade whenever a builder is free, covers what's missing with your own resource crates, and opens the parcels finished buildings leave — never gems, never a paid queue |
 | 🎖️ **Troop Training** | Restarts training the moment a batch finishes, then asks the alliance for help |
 | 🏥 **Hospital Healing** | Heals wounded troops automatically and requests alliance help to speed it up |
 | 🧍 **Survivor Recruiting** | Spots every survivor at your gates by icon — zooms and pans the camera to find them all |
