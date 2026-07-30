@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.5.1-F2811D?style=flat-square" alt="Version 1.5.1">
+  <img src="https://img.shields.io/badge/version-1.5.3-F2811D?style=flat-square" alt="Version 1.5.3">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-2b2f20?style=flat-square" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/duties-22%20automated-2b2f20?style=flat-square" alt="22 automated duties">
   <img src="https://img.shields.io/badge/trial-2%20days%20free-F2811D?style=flat-square" alt="2-day free trial">
@@ -38,8 +38,23 @@ recognition** — no fixed click positions, no memory reading, no game
 file modification, no APK mods. And it is built around one hard rule:
 **it never spends a single gem.**
 
-## What's new in v1.5.1
+## What's new in v1.5.3
 
+- 🏴‍☠️ **Truck raiding finally raids** — it used to give up in silence,
+  looking for the station only where the camera happened to point and
+  walking away while the battle screen was still being drawn.
+- 🔍 **It searches your base like a person** — zooms out, moves the
+  camera around, and tries both a wider and a closer view to find the
+  station, the freight trucks, your finished-building parcels and the
+  survivors at your gates.
+- ⏳ **It waits for screens to open** instead of looking a moment too
+  early and abandoning the job.
+- 🪟 **An open screen gets used, not closed** — truck reward, trade
+  panel, station platform or raid list: if it's already there, the bot
+  finishes the job straight away.
+- 👹 **Your boss gets picked up sooner** — the bot checks your "My
+  Discoveries" list after **every** golden zombie it kills, not once
+  per round, and rallies as soon as a boss of yours is there.
 - 🚂 **Freight train trade** — loads the trucks parked by the station and
   ships them, taking the free re-roll when the cargo isn't worth sending.
   Never a paid re-roll.
@@ -185,4 +200,3 @@ included in every active plan.
   <a href="https://discord.gg/cd9zPVgJ56">Discord</a> ·
   <a href="https://dl.sentrybot.uk/SentryBot.zip">Download</a>
 </p>
-
