@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.4.10-F2811D?style=flat-square" alt="Version 1.4.10">
+  <img src="https://img.shields.io/badge/version-1.5.1-F2811D?style=flat-square" alt="Version 1.5.1">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-2b2f20?style=flat-square" alt="Windows 10/11">
-  <img src="https://img.shields.io/badge/duties-17%20automated-2b2f20?style=flat-square" alt="17 automated duties">
+  <img src="https://img.shields.io/badge/duties-22%20automated-2b2f20?style=flat-square" alt="22 automated duties">
   <img src="https://img.shields.io/badge/trial-2%20days%20free-F2811D?style=flat-square" alt="2-day free trial">
   <a href="https://discord.gg/cd9zPVgJ56"><img src="https://img.shields.io/badge/Discord-join%20%26%20get%20a%20key-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Join the SentryBot Discord and get a free key"></a>
 </p>
@@ -38,20 +38,30 @@ recognition** — no fixed click positions, no memory reading, no game
 file modification, no APK mods. And it is built around one hard rule:
 **it never spends a single gem.**
 
-## What's new in v1.4.10
+## What's new in v1.5.1
 
-- 🏗️ **Building upgrades, start to finish** — the moment a builder frees
-  up, the bot starts the upgrade the game recommends, tops it up from
-  your own resource crates if you're short, and opens the parcels your
-  finished buildings leave behind.
-- ♻️ **A second pass at the end of every long round** — alliance help,
-  rallies, survivors, training, healing and gifts get another look, so
-  nothing waits for the next round.
-- 📐 **Sharper screen measurement** — at some window sizes the bot assumed
-  the game was drawn at its reference size and skipped measuring it,
-  so panels opened but the buttons inside weren't found. Fixed.
-- ⚙️ **New duties arrive switched on** after an update; the ones you
-  switched off yourself stay off.
+- 🚂 **Freight train trade** — loads the trucks parked by the station and
+  ships them, taking the free re-roll when the cargo isn't worth sending.
+  Never a paid re-roll.
+- 🏴‍☠️ **Truck raiding** — goes after other players' richest loaded trucks,
+  reads both army strengths first, and walks away from a fight it would
+  lose.
+- 🎫 **Ride the train** — boards the last carriage while the train waits
+  and thanks the driver, donating only the passes you already own, never
+  the ones the game offers to sell you.
+- 🌟 **Golden zombies** — during the Zombie Invasion event it hunts the
+  golden ones, one march at a time, waiting for each squad to land before
+  sending the next. Normal zombie hunting steps aside while the event is
+  running, so your stamina goes to the rewards that expire.
+- 👹 **Zombie boss** — once you've found a boss, the bot organises the
+  rally on it and invites your alliance.
+- ⚡ **Smarter about stamina** — it now sees that stamina has run out
+  before it even tries to march, tops up from the free refill and from
+  your reserve packs, and goes straight back to hunting. Gems are never
+  touched.
+- 🔧 **Event screen fixes** — the bot no longer gives up when the event
+  panel reopens on the page you left it on, and no longer abandons a
+  target it would have beaten.
 
 ## Earlier, in v1.4
 
@@ -63,14 +73,14 @@ file modification, no APK mods. And it is built around one hard rule:
 - 💰 **Tech donation until the bar turns grey** — it no longer stops early.
 - 🛡️ **Tougher** — a failing duty can't take the whole bot down anymore.
 
-## Features — 17 automated duties
+## Features — 22 automated duties
 
 | Duty | What it does |
 |------|--------------|
 | 🤝 **Alliance Help** | Answers every help request instantly — top of the board, every day |
 | 🚩 **Rally Joiner** | Joins alliance rallies before the countdown ends, even at 3 AM |
 | 💰 **Resource Collection** | Harvests all 7 bubble types, whatever your base layout |
-| 🏗️ **Building Upgrades** | Starts the recommended upgrade whenever a builder is free, covers what's missing with your own resource crates, and opens the parcels finished buildings leave — never gems, never a paid queue |
+| 🏗️ **Building Upgrades** | Starts the recommended upgrade whenever a builder is free, covers what's missing with your own resource crates, asks the alliance for help on long builds, and opens the parcels finished buildings leave — never gems, never a paid queue |
 | 🎖️ **Troop Training** | Restarts training the moment a batch finishes, then asks the alliance for help |
 | 🏥 **Hospital Healing** | Heals wounded troops automatically and requests alliance help to speed it up |
 | 🧍 **Survivor Recruiting** | Spots every survivor at your gates by icon — zooms and pans the camera to find them all |
@@ -81,6 +91,11 @@ file modification, no APK mods. And it is built around one hard rule:
 | 🕵️ **Secret Missions** | Claims completed secret missions and dispatches heroes on new ones |
 | 🚚 **Armored Truck** | Collects the truck's accumulated resources on schedule |
 | 🧟 **Zombie Hunting** | Farms your chosen elite zombie level, managing its own stamina |
+| 🚂 **Freight Train Trade** | Loads the station trucks and ships them, taking the free re-roll when the cargo is poor — never a paid one |
+| 🏴‍☠️ **Truck Raiding** | Hits other players' richest loaded trucks, reading both army strengths first and walking away from a losing fight |
+| 🎫 **Ride the Train** | Boards the last carriage while the train waits and thanks the driver, donating only passes you already own |
+| 🌟 **Golden Zombies** | Hunts the event's golden zombies one march at a time, and lets the normal hunt stand aside while the event runs |
+| 👹 **Zombie Boss** | Organises the rally on the boss you found and invites the alliance |
 | ♾️ **24/7 Scheduler** | Runs it all with human-like pacing, night sleep and lunch breaks |
 
 ## Plays like a person, not a script
@@ -170,3 +185,4 @@ included in every active plan.
   <a href="https://discord.gg/cd9zPVgJ56">Discord</a> ·
   <a href="https://dl.sentrybot.uk/SentryBot.zip">Download</a>
 </p>
+
