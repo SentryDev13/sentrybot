@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.5.3-F2811D?style=flat-square" alt="Version 1.5.3">
+  <img src="https://img.shields.io/badge/version-1.5.4-F2811D?style=flat-square" alt="Version 1.5.4">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-2b2f20?style=flat-square" alt="Windows 10/11">
-  <img src="https://img.shields.io/badge/duties-22%20automated-2b2f20?style=flat-square" alt="22 automated duties">
+  <img src="https://img.shields.io/badge/duties-23%20automated-2b2f20?style=flat-square" alt="23 automated duties">
   <img src="https://img.shields.io/badge/trial-2%20days%20free-F2811D?style=flat-square" alt="2-day free trial">
   <a href="https://discord.gg/cd9zPVgJ56"><img src="https://img.shields.io/badge/Discord-join%20%26%20get%20a%20key-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Join the SentryBot Discord and get a free key"></a>
 </p>
@@ -37,6 +37,30 @@ mouse, exactly like a player. It finds every button by **image
 recognition** — no fixed click positions, no memory reading, no game
 file modification, no APK mods. And it is built around one hard rule:
 **it never spends a single gem.**
+
+## What's new in v1.5.4
+
+- 🔬 **New duty: technology research** — collects a finished research,
+  starts the one the game recommends and asks the alliance for help,
+  for one research centre or two. Never Quick Research, never gems.
+- 🎖️ **Your trained troops get collected** — a full barracks shows a
+  different badge from an idle one, and the bot only knew the idle one,
+  so it walked past your finished troops. It now empties the barracks
+  and starts the next batch.
+- 🏴‍☠️ **Truck raiding goes in the front door** — the fixed sidebar icon
+  instead of hunting a bubble that looks exactly like the freight one
+  and hides wherever your camera isn't. 12 targets weighed up and 3
+  trucks looted in testing, with no camera hunting at all.
+- 🔢 **Enemy power read three ways** — one uncertain digit used to throw
+  away the whole reading and skip a target the bot could have beaten.
+  The number now counts only when two independent readings agree.
+- 🚚 **The armoured truck reward is collected** — it was hunting for a
+  marker that never keeps the same shape.
+- 🪟 **A window over the game no longer blinds the bot** — it reads the
+  screen, so anything on top of the game was being read instead of it,
+  silently. It now brings the game back to the front first.
+- 🗺️ **Base ⇄ world switching waits for the camera** instead of claiming
+  it had arrived the instant it clicked.
 
 ## What's new in v1.5.3
 
@@ -88,7 +112,7 @@ file modification, no APK mods. And it is built around one hard rule:
 - 💰 **Tech donation until the bar turns grey** — it no longer stops early.
 - 🛡️ **Tougher** — a failing duty can't take the whole bot down anymore.
 
-## Features — 22 automated duties
+## Features — 23 automated duties
 
 | Duty | What it does |
 |------|--------------|
@@ -96,7 +120,8 @@ file modification, no APK mods. And it is built around one hard rule:
 | 🚩 **Rally Joiner** | Joins alliance rallies before the countdown ends, even at 3 AM |
 | 💰 **Resource Collection** | Harvests all 7 bubble types, whatever your base layout |
 | 🏗️ **Building Upgrades** | Starts the recommended upgrade whenever a builder is free, covers what's missing with your own resource crates, asks the alliance for help on long builds, and opens the parcels finished buildings leave — never gems, never a paid queue |
-| 🎖️ **Troop Training** | Restarts training the moment a batch finishes, then asks the alliance for help |
+| 🎖️ **Troop Training** | Collects finished troops and restarts training the moment a barracks frees up, then asks the alliance for help |
+| 🔬 **Technology Research** | Collects a finished research and starts the recommended one, for one research centre or two, then asks the alliance for help — never Quick Research, never gems |
 | 🏥 **Hospital Healing** | Heals wounded troops automatically and requests alliance help to speed it up |
 | 🧍 **Survivor Recruiting** | Spots every survivor at your gates by icon — zooms and pans the camera to find them all |
 | 📬 **Mail, VIP & Free Stamina** | Claims all mail, the daily VIP pack & chest, and free stamina |
